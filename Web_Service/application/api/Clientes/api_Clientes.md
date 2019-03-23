@@ -1,0 +1,1 @@
+'/api_Clientes/?', 'application.api.Clientes.api_Clientes.Api_Clientes',
