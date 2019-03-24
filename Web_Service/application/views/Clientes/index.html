@@ -11,8 +11,8 @@ $def with(Clientes)
     <tbody>
         $for item in Clientes:
         <tr>
-            <td><a href='/Clientes/view/$item.id_cliente'>$item.id_cliente</a></td>
-            <td><a href='/Clientes/edit/$item.id_cliente'><span class="glyphicon glyphicon-pencil"></span></a></td>
+            <td><a href='/Clientes/view/$item.id_cliente'>$item.Nombre $item.Ape_Pat</a></td>
+            <td><a href='/Clientes/edit/$item.Nombre'><span class="glyphicon glyphicon-pencil"></span></a></td>
             <td><a href='/Clientes/delete/$item.id_cliente'><span class="glyphicon glyphicon-trash"></span></a></td>
         </tr>
     </tbody>
